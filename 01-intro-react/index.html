@@ -1,0 +1,33 @@
+react-index.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Cargat React -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@16/umd/react.production.min.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"
+    ></script>
+    <!-- Babel: Nos ayuda a pasar nuestro codigo moderno de JS a codigo JS que los navegadores pueden soportar -->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  </head>
+  <body>
+    <!-- Renderizar contenido aqui -->
+    <div id="root"></div>
+    <!-- Renderizar contenido aqui -->
+
+    <script type="text/babel">
+      const divRoot = document.querySelector("#root");
+
+      const nombre = "Daniel";
+      const h1Tag = <h1>Hola, soy {nombre}</h1>;
+
+      ReactDOM.render(h1Tag, divRoot);
+    </script>
+  </body>
+</html>
