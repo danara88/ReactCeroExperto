@@ -39,3 +39,6 @@ const h1Tag = document.createElement("h1", null, `Hola soy, ${nombre}`);
 
 Babel nos permite utilizar características actuales de JS, y poder utilizar ese codigo en navegadores que aún no lo soportan.
 React usa en el backgroun a Babel.
+
+## La mejor documentacion para JavaScript
+https://developer.mozilla.org/es/
