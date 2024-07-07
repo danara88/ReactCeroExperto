@@ -41,4 +41,14 @@ Babel nos permite utilizar características actuales de JS, y poder utilizar ese
 React usa en el backgroun a Babel.
 
 ## La mejor documentacion para JavaScript
+
 https://developer.mozilla.org/es/
+
+## Formas de ejecutar React
+
+1. Usando Create React App por medio de la CLI. Esta trabaja con webpack. [CreateReactApp](https://create-react-app.dev/ "Create React app")
+2. Vite utiliza otra forma de trabajo en lugar de usar webpack. Es mucho mejor con Crate React App. [Vite](https://vitejs.dev/ "Vite")
+
+## ¿Por qué Vite es más rapido que CRA?
+
+El Hot Module Replacement en vite es mucho más rápido que CRA. Sin embargo, los proyectos de Vite son más crudos, por lo que debemos instalar mas paquetes y configurarlos.
