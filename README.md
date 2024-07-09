@@ -52,3 +52,8 @@ https://developer.mozilla.org/es/
 ## ¿Por qué Vite es más rapido que CRA?
 
 El Hot Module Replacement en vite es mucho más rápido que CRA. Sin embargo, los proyectos de Vite son más crudos, por lo que debemos instalar mas paquetes y configurarlos.
+
+## Unit testing
+
+- Jest: https://jestjs.io/
+- React testing library:https://testing-library.com/ (El mejor para hacer tests en componentes renderizados de react)
