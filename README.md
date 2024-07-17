@@ -57,3 +57,13 @@ El Hot Module Replacement en vite es mucho más rápido que CRA. Sin embargo, lo
 
 - Jest: https://jestjs.io/
 - React testing library:https://testing-library.com/ (El mejor para hacer tests en componentes renderizados de react)
+
+## Pasos para configurar el ambiente de pruebas con Jest para proyectos Vite
+
+https://gist.github.com/Klerith/ca7e57fae3c9ab92ad08baadc6c26177
+
+## Puntos claves al hacer unit testin
+
+1. Primero detectat la ruta crítica de tu aplciación.
+2. Primero empezar con aquellos componentes con menos dependencias (componentes más pequeños)
+3. No evaluar cosas que ya fueron evaluadas.

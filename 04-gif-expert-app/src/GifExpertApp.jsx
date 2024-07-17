@@ -16,7 +16,7 @@ export const GifExperApp = () => {
 
   return (
     <>
-      <h1>GifExperApp</h1>
+      <h1>GifExpertApp</h1>
       {/* Todos los eventos comienzan con "on" */}
       <AddCategory onNewCategory={onAddCategory} />
       {/* Nunca utilizar la i porque React utiliza el valor para saber cuando un elemento se elimino */}
