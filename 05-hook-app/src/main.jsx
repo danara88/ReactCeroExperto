@@ -17,9 +17,7 @@ import './index.css';
 // import { TodoApp } from './08-useReducer/TodoApp';
 
 import { RouterProvider } from 'react-router-dom';
-import { getRoutes } from './routes';
-
-const router = getRoutes();
+import { router } from './routes';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>

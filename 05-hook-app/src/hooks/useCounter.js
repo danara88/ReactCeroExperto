@@ -18,9 +18,9 @@ export const useCounter = (initialValue = 0) => {
     setCounter(initialValue);
   }
 
-  const incrementCounter = (rate = 1) => setCounter(counter + rate);
+  const incrementCounter = (rate = 1) => setCounter((current) => current + rate);
 
-  const decrementCounter = (rate = 1) => setCounter(counter - rate);
+  const decrementCounter = (rate = 1) => setCounter((current) => current - rate);
 
   const resetCounter = () => setCounter(initialValue);
 
