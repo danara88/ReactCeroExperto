@@ -39,7 +39,7 @@ export const SearchPage = () => {
           <h4>Searching</h4>
           <hr />
 
-          <form onSubmit={onSearchSubmit}>
+          <form onSubmit={onSearchSubmit} data-testid="search-form">
             <input
               type="text"
               placeholder="Search a hero"
@@ -70,6 +70,7 @@ export const SearchPage = () => {
           )} */}
 
           <div
+            data-testid="alert"
             className="alert alert-primary   animate__animated animate__fadeIn"
             style={{ display: showSearch ? '' : 'none' }}
           >
@@ -77,6 +78,7 @@ export const SearchPage = () => {
           </div>
 
           <div
+            data-testid="error-alert"
             className="alert alert-danger animate__animated animate__fadeIn"
             style={{ display: showError ? '' : 'none' }}
           >
